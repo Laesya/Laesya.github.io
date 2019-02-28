@@ -1,0 +1,33 @@
+/*Il est précisé dans le challenge "La partie ayant trait au rendu graphique final viendra dans une prochaine quête."
+J'ai donc décidé de faire le strict minimum au niveau du css (hors bootstrap) afin de faire tout le reste dans la prochaine quête.*/
+
+@media (max-width: 1191px) { 
+    .responsive-img {
+        display: none;
+    }
+}
+
+/*Effet au survol de la souris*/
+
+.capture {
+    opacity:0.5;
+	transition: opacity 1s;
+}
+
+.survol:hover .capture {
+	opacity:.1;
+}
+
+.survol:hover .capture {
+	opacity: 1;
+}
+
+/*Effet autres images*/
+#golum-rounded {
+    border-radius: 50%;
+}
+/*footer*/
+
+footer {
+    background-color: #444440;
+}
