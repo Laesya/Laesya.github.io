@@ -90,6 +90,10 @@ button {
 }
 
 /*fin images*/
+
+#fellows {
+    background-color: #f4f1ea;
+}
 .card {
     border: 7px solid #131313;
     margin-bottom: 3rem;
