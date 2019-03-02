@@ -1,0 +1,436 @@
+@import url("./fonts.css");
+@import url("./mediaqueries.css");
+
+/*nav*/
+.bg-dark {
+    background-color: #ff5f01 !important;
+}
+
+.navbar li:active {
+    text-decoration: underline;
+}
+/*fin nav*/
+
+/*Polices*/
+.titles-front-nav{
+    font-family: "AnironC";
+    color: #fff !important;
+}
+
+h2, h3 {
+    font-family: "AnironC";
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+h2::before, h2::after {
+    content: "ij";
+    font-family: "Tengwar Annatar";
+    font-style: italic;
+    font-size: 19px;
+    color: #E87934;
+    position: relative;
+    bottom: 10px;
+}
+
+#fellows li .active::before, #fellows li .active::after {
+    content: "b";
+    font-family: "Tengwar Annatar";
+    font-style: italic;
+    font-size: 29px;
+    color: #E87934;
+    position: relative;
+    bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+button {
+    font-family: "AnironC"
+}
+* {
+    font-family: "Party Business";
+}
+/*Fin Polices*/
+
+/*Fellows*/
+/*pills*/
+
+.active {
+    background-color: unset !important;
+    color: #E87934 !important;
+    text-decoration: underline !important;
+}
+
+.nav a {
+    font-size: 41px;
+    color: #000;
+}
+
+/*fellows img*/
+#img-gandalf {
+    background: no-repeat center/100% url('https://nsa40.casimages.com/img/2019/03/01/190301081023311568.png');
+    height: 441px;
+}
+
+#img-aragorn {
+    background: no-repeat center/100% url('https://nsa40.casimages.com/img/2019/03/01/190301081025513649.png');
+    height: 441px;
+}
+
+#img-gimli {
+    background: no-repeat center/100% url('https://nsa40.casimages.com/img/2019/03/01/190301081023605758.png');
+    height: 441px;
+}
+
+
+#fellows-subtitle {
+    padding-top: 3.5rem;
+    padding-left: 1rem;
+}
+
+/*fin images*/
+.card {
+    border: 7px solid #131313;
+    margin-bottom: 3rem;
+}
+
+.card-body {
+    padding: 0;
+}
+.card-body p {
+    font-size: 2em;
+    color: #fff;
+    background-color: #131313;
+    margin: 0;
+}
+
+.position-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: brightness(50%);
+    transition: filter 1s;
+}
+
+#fellow-capture {
+    position: relative;
+}
+
+.capture {
+	opacity: 0.5;
+	transition: opacity 1s;
+}
+
+.reward {
+    display: table;
+    margin: auto;
+    font-size: 2em;
+    text-align: center;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    opacity: 1;
+    transition: opacity 1s;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.8);
+}
+
+.reward span {
+	color: #E87934;
+}
+
+.wanted {
+    display: table;
+    margin: auto;
+    color: white;
+    font-size: 59px;
+    text-align: center;
+    transition: all 1s;
+    margin-bottom: 134px;
+}
+
+#statut {
+    color: #E87934;
+    display: table;
+    margin: auto;
+    font-size: 3em;
+    text-align: center;
+}
+
+#img-gimli .wanted {
+    text-decoration: line-through #E87934;
+}
+.survol:hover .capture {
+	opacity:1;
+}
+
+.survol:hover  .reward {
+	opacity: 0;
+}
+
+.survol:hover .wanted {
+	margin-bottom: 12px;
+	font-size: 46px;
+	text-align: center;
+}
+
+.position-text:hover {
+    filter: brightness(100%);
+}
+
+
+
+.capture {
+    opacity:0.5;
+	transition: opacity 1s;
+}
+
+.survol:hover .capture {
+	opacity:.1;
+}
+
+.survol:hover .capture {
+	opacity: 1;
+}
+
+/*Fellows*/
+/*reward*/
+#reward {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+.ligne-orange {
+    background-color: #E87934;
+    height: 3px;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+#reward h2 {
+    margin-bottom: 3rem;
+}
+#reward p {
+    font-size: 25px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#reward button {
+    color: #E87934;
+    border-radius: unset !important;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+#reward button span {
+    font-size: 40px;
+}
+
+/*hunters*/
+
+#hunters {
+    background-color: #f4f1ea;
+    padding-bottom: 4rem;
+}
+.media-body h3 {
+    color: #E87934;
+    font-family: "Party Business";
+    padding-left: 2rem;
+    font-size: 48px;
+    position: relative;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.media-body span {
+    padding-left: 2rem;
+    font-size: 21px;
+}
+.media-body a {
+    text-decoration: underline;
+}
+
+.d-flex .btn-dark {
+    margin-top: 7px;
+    border-radius: unset;
+    font-size: 11px;
+    color: #E87934;
+    display: table;
+    margin: auto;
+    margin-left: 2rem;
+}
+
+.goblin45 {
+    padding-left: 3rem;
+    margin-left: 3rem;
+}
+/*ring*/
+
+#ring {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+#ring .card {
+    border: 7px solid #1a1a1a;
+    margin-bottom: 3rem;
+    border-radius: 26px 26px 0% 0;
+    border-bottom-color: #E87934;
+}
+
+.card-header {
+    background-color: #E87934;
+}
+
+.card-header h3 {
+    color: #fff;
+    padding: 0;
+    font-size: 20px;
+}
+
+table * {
+    color: #000;
+}
+
+caption {
+    caption-side: top;
+}
+
+table th, td {
+    font-family: "AnironC";
+}
+
+table td {
+    color: #6a6562;
+}
+
+#ring .card-body {
+    background-color: #fff;
+}
+
+#ring .card-body p{
+    color: #000;
+    background-color: #fff;
+    padding-top: 6rem;
+    font-size: 21px;
+    padding-left: 2rem;
+}
+
+#signature-gollum {
+    color: #6a6562 !important;
+    padding-top: 0 !important;
+    font-size: 25px !important;
+    float: right;
+}
+#golum-rounded {
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 15%;
+    width: 15%;
+}
+
+/*enlist*/
+
+#enlist {
+    background-color: #f4f1ea;
+}
+
+#enlist p {
+    margin-left: 2rem;
+    font-size: 25px;
+}
+#army-capture {
+    margin-right: 2rem;
+    display: table;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#sauron-capture {
+    margin-bottom: 1rem;
+    display: table;
+    margin: auto;
+}
+
+#more-info {
+    margin-top: 5rem;
+}
+#more-info p {
+    color: #E87934;
+    font-family: "AnironC";
+    display: table;
+    margin: auto;
+}
+#enlist  .btn-dark {
+    color: #E87934;
+    font-family: "AnironC";
+    border-radius: unset;
+    display: table;
+    margin: auto;
+}
+
+/*contact*/
+
+#contact {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+#contact .container-fluid {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#contact img {
+    display: table;
+    margin: auto;
+    margin-bottom: 2rem;
+    height: 84%;
+    width: auto;
+}
+
+#contact form input{
+    font-family: "AnironC";
+}
+
+#contact select {
+    font-family: "AnironC";
+}
+
+#contact textarea {
+    font-family: "AnironC";
+}
+/*footer*/
+
+footer {
+    background-color: #E87934;
+    padding: 2rem;
+}
+
+footer a, footer a:hover {
+    font-family: "AnironC";
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    
+}
+
+#logo-footer {
+    height: 20px;
+    width: auto;
+    margin-top: 1rem;
+}
+
+footer a:not(.padding-ignore) {
+    padding: 14px;
+}
+
+footer .align-self-start {
+    margin-top: 11px;
+}

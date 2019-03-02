@@ -1,0 +1,33 @@
+@media (max-width: 1191px) { 
+    .responsive-img {
+        display: none !important;
+    }
+}
+
+@media (max-width: 914px) { 
+    #hunters .justify-content-around {
+        flex-direction: column !important;      
+    }
+
+    .goblin45 {
+        margin-top: 1rem;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    #hunters h3 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 767px) { 
+    #enlist .d-inline-flex {
+        flex-direction: column !important; 
+    }
+}
+
+@media (max-width: 688px) {
+    footer .justify-content-between {
+        flex-direction: column !important; 
+    }
+}

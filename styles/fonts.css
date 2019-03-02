@@ -1,0 +1,61 @@
+/*Polices*/
+
+@font-face {
+    font-family: "Party Business";
+    src: url("./Polices/nancy-lorenz_party-business/partybusiness.ttf") format("truetype");
+    font-weight: normal;
+}
+
+/*Aniron/C*/
+
+@font-face {
+    font-family: "AnironC";
+    src: url("./Polices/pete-klassen_aniron/anicm___.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "AnironC";
+    src: url("./Polices/pete-klassen_aniron/anicb___.ttf") format("truetype");
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: "Aniron";
+    src: url("./Polices/pete-klassen_aniron/anirm___.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Aniron";
+    src: url("./Polices/pete-klassen_aniron/anirb___.ttf") format("truetype");
+    font-weight: bold;
+}
+/*Aniron/C*/
+/*Tengwar Annatar*/
+@font-face {
+    font-family: "Tengwar Annatar";
+    src: url("./Polices/tengwar_annatar/tngan.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Tengwar Annatar";
+    src: url("./Polices/tengwar_annatar/tnganb.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Tengwar Annatar";
+    src: url("./Polices/tengwar_annatar/tnganbi.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Tengwar Annatar";
+    src: url("./Polices/tengwar_annatar/tngani.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
