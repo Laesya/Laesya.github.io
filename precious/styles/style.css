@@ -1,0 +1,80 @@
+@import url("./fonts.css");
+@import url("./rings.css");
+/*nav*/
+.bg-dark {
+    background-color: #ff5f01 !important;
+}
+
+.navbar li:active {
+    text-decoration: underline;
+}
+/*fin nav*/
+
+/*Polices*/
+.titles-front-nav{
+    font-family: "AnironC";
+    color: #fff !important;
+}
+
+h2, h3 {
+    font-family: "AnironC";
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    color: #000;
+    font-family: "AnironC";
+    padding: 10px;
+    font-size: 22px;
+    padding-top: 0px;
+}
+
+.ring-yellow + p {
+    padding-top: 58px;
+}
+
+#jo {
+    margin-bottom: 0 !important;
+}
+/*container*/
+
+.container-fluid {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#exercise-rings div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #E87934;
+    padding: 2rem;
+}
+
+footer a, footer a:hover {
+    font-family: "AnironC";
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    
+}
+
+#logo-footer {
+    height: 20px;
+    width: auto;
+    margin-top: 1rem;
+}
+
+footer a:not(.padding-ignore) {
+    padding: 14px;
+}
+
+footer .align-self-start {
+    margin-top: 11px;
+}

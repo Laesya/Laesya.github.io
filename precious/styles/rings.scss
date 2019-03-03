@@ -1,0 +1,37 @@
+@mixin ring($height, $width, $border-width, $color) {
+  border: $border-width solid $color;
+  border-radius: 50%;
+  display: block;
+  height: $height;
+  width: $width;
+}
+
+@mixin myShadows ($x, $y, $blur, $color) {
+  box-shadow : $x/2 $y/2 $blur/2 lighten($color, 50);  
+  box-shadow: $x $y $blur $color, $x $y $blur $color inset;
+} 
+
+@mixin JO ($left, $top) {
+  position: relative;
+  left: $left;
+  top: $top;
+}
+
+.ring-yellow {
+  @include ring(150px, 150px, 12px, #FFC105); 
+  @include myShadows (5px, 3px, 9px, #C99804);
+}
+
+.ring-orange {
+  @include ring(40px, 40px, 3px, #E85F0B); 
+  @include myShadows (2px, 1px, 6px, #BF4E09);
+}
+
+
+@for $i from 1 through 6 {
+  .ring-gris-#{$i} {
+    @include ring(20px * $i *0.8, 20px * $i * 0.8, 3px * $i /2, #444440);
+    @include myShadows(1px * $i, 1px * $i, 3px * $i, #222220);
+    @include JO(-(10px * $i *$i *0.3), -(10px * $i));
+  }
+}

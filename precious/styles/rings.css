@@ -1,0 +1,97 @@
+.ring-yellow {
+    border: 12px solid #FFC105;
+    border-radius: 50%;
+    display: block;
+    height: 150px;
+    width: 150px;
+    box-shadow: 2.5px 1.5px 4.5px #fef2ce;
+    box-shadow: 5px 3px 9px #C99804, 5px 3px 9px #C99804 inset;
+  }
+  
+  .ring-orange {
+    border: 3px solid #E85F0B;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 1px 0.5px 3px #fdddca;
+    box-shadow: 2px 1px 6px #BF4E09, 2px 1px 6px #BF4E09 inset;
+  }
+  
+  .ring-gris-1 {
+    border: 1.5px solid #444440;
+    border-radius: 50%;
+    display: block;
+    height: 16px;
+    width: 16px;
+    box-shadow: 0.5px 0.5px 1.5px #a3a39e;
+    box-shadow: 1px 1px 3px #222220, 1px 1px 3px #222220 inset;
+    position: relative;
+    left: -3px;
+    top: -10px;
+  }
+  
+  .ring-gris-2 {
+    border: 3px solid #444440;
+    border-radius: 50%;
+    display: block;
+    height: 32px;
+    width: 32px;
+    box-shadow: 1px 1px 3px #a3a39e;
+    box-shadow: 2px 2px 6px #222220, 2px 2px 6px #222220 inset;
+    position: relative;
+    left: -12px;
+    top: -20px;
+  }
+  
+  .ring-gris-3 {
+    border: 4.5px solid #444440;
+    border-radius: 50%;
+    display: block;
+    height: 48px;
+    width: 48px;
+    box-shadow: 1.5px 1.5px 4.5px #a3a39e;
+    box-shadow: 3px 3px 9px #222220, 3px 3px 9px #222220 inset;
+    position: relative;
+    left: -27px;
+    top: -30px;
+  }
+  
+  .ring-gris-4 {
+    border: 6px solid #444440;
+    border-radius: 50%;
+    display: block;
+    height: 64px;
+    width: 64px;
+    box-shadow: 2px 2px 6px #a3a39e;
+    box-shadow: 4px 4px 12px #222220, 4px 4px 12px #222220 inset;
+    position: relative;
+    left: -48px;
+    top: -40px;
+  }
+  
+  .ring-gris-5 {
+    border: 7.5px solid #444440;
+    border-radius: 50%;
+    display: block;
+    height: 80px;
+    width: 80px;
+    box-shadow: 2.5px 2.5px 7.5px #a3a39e;
+    box-shadow: 5px 5px 15px #222220, 5px 5px 15px #222220 inset;
+    position: relative;
+    left: -75px;
+    top: -50px;
+  }
+  
+  .ring-gris-6 {
+    border: 9px solid #444440;
+    border-radius: 50%;
+    display: block;
+    height: 96px;
+    width: 96px;
+    box-shadow: 3px 3px 9px #a3a39e;
+    box-shadow: 6px 6px 18px #222220, 6px 6px 18px #222220 inset;
+    position: relative;
+    left: -108px;
+    top: -60px;
+  }
